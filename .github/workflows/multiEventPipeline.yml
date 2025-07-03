@@ -3,6 +3,7 @@ on:
     push: # Event: Whenever push is made to the repo on the master branch
         branches:
             - master
+            - test
 
 jobs:
     on-push: # JOb name
